@@ -1,0 +1,13 @@
+#formLogin {
+    display: flex;
+    flex-direction: column;
+}
+.formLoginLabel{
+    font-weight: bold;
+    color : orange;
+}
+.formLoginInput{
+    padding : 5px;
+    border-radius: 5px;
+    border-style: none;
+}
