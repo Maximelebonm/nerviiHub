@@ -1,0 +1,46 @@
+/* .profileScreenContainer{
+
+} */
+
+#sectionProfileUser{
+    padding-top: 10px;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+#profilePicContainer{
+    position : relative;
+    width: 200px; /* Assurez-vous que la largeur du conteneur est la même que celle de la photo */
+    height: 200px;
+    margin-bottom : 20px;
+}
+#photoProfile{ 
+    border-radius: 100%;
+    overflow: hidden;
+    width :100%;
+    height :100%;
+}
+.iconeValid{
+    position : absolute;
+    bottom : 0;
+    z-index: 20;
+    border-radius: 100%;
+    color : rgb(255, 255, 255);
+    font-size :xx-large;
+    left: 50%; /* Centrez l'icône horizontalement dans le conteneur */
+    transform: translateX(-50%);
+    margin-bottom: -25px;
+}
+/* #ProfileInfo{
+
+}
+
+#sectionProfileAppli{
+
+} */

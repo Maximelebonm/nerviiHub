@@ -1,0 +1,26 @@
+#HeaderContainer{
+    height : 50px;
+   
+}
+#HeaderContainer ul{
+    padding: 0;
+    margin : 0;
+    list-style: none;
+    height: 100%;
+}
+#HeaderContainer ul li { 
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right : 10px;
+    font-size: xx-large;
+}
+.iconHeader{
+    color : white;
+}
+.iconHeader:hover{
+    color :#0f3443;
+}
+.icon:active{
+    color : blue;
+}

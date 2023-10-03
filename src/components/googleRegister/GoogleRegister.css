@@ -1,0 +1,7 @@
+#googleRegisterbtn{
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+    font-size: large;
+}
